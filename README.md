@@ -59,6 +59,28 @@ If it still doesn't work, you probably need to install:
 yay -S libpng12 ffmpeg-compat-57
 ```
 
+## Extra Info
+
+Highly recommend to use 
+
+```
+https://github.com/Ashark/davinci-resolve-checker
+```
+
+If you use hyprland you should run 
+
+```
+env -u WAYLAND_DISPLAY XDG_SESSION_TYPE=x11 QT_QPA_PLATFORM=xcb /opt/resolve/bin/resolve
+```
+
+If you use scaling in hyprland (mostly on laptops, but it works in any case)
+add this to your hyprland.conf
+```
+xwayland {
+  force_zero_scaling = true
+}
+```
+
 ## That's it!
 
 You should now be able to run DaVinci Resolve from your application menu or by running `/opt/resolve/bin/resolve`.
