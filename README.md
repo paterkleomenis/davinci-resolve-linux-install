@@ -56,7 +56,7 @@ cd /opt/resolve/libs && sudo mkdir disabled-libraries && sudo mv libglib* libgio
 
 If it still doesn't work, you probably need to install:
 ```bash
-yay -S libpng12 ffmpeg-compat-57
+sudo pacman -S libxcrypt-compat
 ```
 
 ## Extra Info
