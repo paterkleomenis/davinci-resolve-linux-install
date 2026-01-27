@@ -37,7 +37,9 @@ sudo chmod +x DaVinci_Resolve_Studio_your_version_Linux.run
 3. Install DaVinci Resolve:
 
 **For Wayland users (recommended):**
-If you are using Wayland (90% probability), you can just double click the run file and install it from there.
+```bash
+sudo QT_QPA_PLATFORM=minimal ./DaVinci_Resolve_Studio_your_version_Linux.run -i -y
+```
 
 **For X11 users or command line:**
 ```bash
