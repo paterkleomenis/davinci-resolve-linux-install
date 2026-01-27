@@ -74,6 +74,15 @@ If you use hyprland you should run
 ```
 env -u WAYLAND_DISPLAY XDG_SESSION_TYPE=x11 QT_QPA_PLATFORM=xcb /opt/resolve/bin/resolve
 ```
+or if you want to run it from the shortcut, you should do this (when you update davinci, you should do it again)
+```
+sudo nano /usr/share/applications/com.blackmagicdesign.resolve.desktop 
+```
+and replace the Exec with
+```
+Exec=env -u WAYLAND_DISPLAY XDG_SESSION_TYPE=x11 QT_QPA_PLATFORM=xcb /opt/resolve/bin/resolve %u
+```
+
 
 If you use scaling in hyprland (mostly on laptops, but it works in any case)
 add this to your hyprland.conf
