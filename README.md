@@ -31,7 +31,7 @@ unzip DaVinci_Resolve_Studio_your_version_Linux.zip
 
 2. Make the installer executable:
 ```bash
-sudo chmod +x DaVinci_Resolve_Studio_your_version_Linux.run
+chmod +x DaVinci_Resolve_Studio_your_version_Linux.run
 ```
 
 3. Install DaVinci Resolve:
