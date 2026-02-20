@@ -38,7 +38,7 @@ chmod +x DaVinci_Resolve_Studio_your_version_Linux.run
 
 **For Wayland users (recommended):**
 ```bash
-sudo QT_QPA_PLATFORM=minimal ./DaVinci_Resolve_Studio_your_version_Linux.run -i -y
+sudo QT_QPA_PLATFORM=xcb ./DaVinci_Resolve_Studio_your_version_Linux.run -i -y
 ```
 
 **For X11 users or command line:**
