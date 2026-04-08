@@ -33,7 +33,9 @@ unzip DaVinci_Resolve_Studio_your_version_Linux.zip
 ```bash
 chmod +x DaVinci_Resolve_Studio_your_version_Linux.run
 ```
-
+```bash
+sudo pacman -S fuse2
+```
 3. Install DaVinci Resolve:
 
 **For Wayland users (recommended):**
